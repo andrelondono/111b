@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{6}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -11,6 +11,29 @@
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Philipse}(2016)}]{Philipse}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Philipse}}
+  (\bibinfo{year}{2016}),
+  \urlprefix\url{http://userpages.umbc.edu/~dfrey1/ench630/philipse_notes_on_brownian_motion.pdf}.
+
+\bibitem[{\citenamefont{Einstein}(1905)}]{einstein_1905}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Einstein}},
+  \emph{\bibinfo{title}{Investigations on the theory of Brownian movement}}
+  (\bibinfo{publisher}{Dover}, \bibinfo{year}{1905}).
+
+\bibitem[{\citenamefont{Siegrist}(2016)}]{math}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Siegrist}},
+  \emph{\bibinfo{title}{Standard brownian motion}} (\bibinfo{year}{2016}),
+  \urlprefix\url{http://www.math.uah.edu/stat/brown/Standard.html}.
+
+\bibitem[{\citenamefont{Newburgh et~al.}(2013)\citenamefont{Newburgh, Peidle,
+  and Rueckner}}]{newburgh}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Newburgh}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Peidle}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Rueckner}},
+  \bibinfo{journal}{American Association of Physics Teachers}
+  \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{478} (\bibinfo{year}{2013}).
 
 \bibitem[{\citenamefont{Davidson}(2015)}]{kohler}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Davidson}},
