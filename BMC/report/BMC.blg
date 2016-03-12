@@ -4,46 +4,59 @@ The top-level auxiliary file: BMC.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibdatabase.bib
+Warning--I didn't find a database entry for "polyfit"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_markov
+while executing---line 2283 of file apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 6 entries,
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_markov
+while executing---line 2372 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_markov
+while executing---line 2372 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_markov
+while executing---line 2372 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_markov
+while executing---line 2372 of file apsrev.bst
+Warning--empty author in einstein_langevin
+You've used 14 entries,
             3411 wiz_defined-function locations,
-            1184 strings with 10715 characters,
-and the built_in function-call counts, 2749 in all, are:
-= -- 165
-> -- 60
-< -- 12
-+ -- 40
-- -- 16
-* -- 323
-:= -- 358
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 27
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 261
-empty$ -- 253
-format.name$ -- 40
-if$ -- 504
+            1219 strings with 11371 characters,
+and the built_in function-call counts, 6012 in all, are:
+= -- 378
+> -- 119
+< -- 25
++ -- 78
+- -- 32
+* -- 691
+:= -- 788
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 66
+chr.to.int$ -- 14
+cite$ -- 17
+duplicate$ -- 577
+empty$ -- 560
+format.name$ -- 83
+if$ -- 1113
 int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 38
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 79
+int.to.str$ -- 15
+missing$ -- 80
+newline$ -- 57
+num.names$ -- 39
+pop$ -- 173
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 56
 quote$ -- 0
-skip$ -- 100
+skip$ -- 221
 stack$ -- 0
-substring$ -- 76
-swap$ -- 164
-text.length$ -- 7
+substring$ -- 179
+swap$ -- 353
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 34
-warning$ -- 0
-while$ -- 13
+type$ -- 82
+warning$ -- 1
+while$ -- 28
 width$ -- 0
-write$ -- 71
+write$ -- 144
+(There were 5 error messages)

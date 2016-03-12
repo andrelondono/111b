@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 FEB 2016 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 FEB 2016 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,7 +267,11 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) (./BMC.aux)
+) (./BMC.aux
+
+LaTeX Warning: Label `analysis4' multiply defined.
+
+)
 \openout1 = `BMC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -287,8 +291,7 @@ Class revtex4 Info: Patching unrecognized longtable package. (Proceeding with f
 ingers crossed) on input line 13.
 Class revtex4 Info: cite was not loaded (OK!) on input line 13.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 13.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen125
@@ -349,58 +352,143 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    Try loading font information for U+lasy on input line 18.
 
-Class revtex4 Warning: Assuming \noaffiliation for Jung Lin (Doris) Lee.
-
-LaTeX Font Info:    Try loading font information for U+lasy on input line 42.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 42.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 18.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./
-BMC.bbl)
-[2] [3] (./BMC.aux) ) 
+)
+
+Class revtex4 Warning: Assuming \noaffiliation for Jung Lin (Doris) Lee [Partne
+r: Xiyue Wang] .
+
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<plots/analysis.png, id=17, 390.45876pt x 282.05376pt>
+File: plots/analysis.png Graphic file (type png)
+
+<use plots/analysis.png>
+Package pdftex.def Info: plots/analysis.png used on input line 60.
+(pdftex.def)             Requested size: 205.24384pt x 148.26118pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<plots/exp_sim.png, id=19, 390.45876pt x 282.05376pt>
+File: plots/exp_sim.png Graphic file (type png)
+ <use plots/exp_sim.png>
+Package pdftex.def Info: plots/exp_sim.png used on input line 66.
+(pdftex.def)             Requested size: 205.24384pt x 148.26118pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 84.
+
+[2 <./plots/analysis.png> <./plots/exp_sim.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 124.
+
+[3] <plots/linear_fit.jpg, id=37, 572.1375pt x 421.575pt>
+File: plots/linear_fit.jpg Graphic file (type jpg)
+
+<use plots/linear_fit.jpg>
+Package pdftex.def Info: plots/linear_fit.jpg used on input line 145.
+(pdftex.def)             Requested size: 256.55872pt x 189.04442pt.
+
+Overfull \hbox (11.29219pt too wide) in paragraph at lines 145--146
+[][] 
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 142--149
+  \OT1/cmr/m/it/9 Lin-ear Fit-ting \OT1/cmr/m/n/9 ---[] \OT1/cmr/m/n/10 An im-p
+rove-ment from the di-rect
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 157--159
+\OT1/cmr/m/n/10 The dif-fu-sion co-ef-fi-cient from the Gaussian-fitting
+ []
+
+<plots/onion.png, id=38, 154.32657pt x 187.45032pt>
+File: plots/onion.png Graphic file (type png)
+ <use plots/onion.png>
+Package pdftex.def Info: plots/onion.png used on input line 162.
+(pdftex.def)             Requested size: 102.62192pt x 124.65002pt.
+
+<plots/onion2.png, id=39, 251.43938pt x 241.65282pt>
+File: plots/onion2.png Graphic file (type png)
+ <use plots/onion2.png>
+Package pdftex.def Info: plots/onion2.png used on input line 163.
+(pdftex.def)             Requested size: 128.27936pt x 123.28555pt.
+
+<plots/histo.png, id=40, 415.5525pt x 277.035pt>
+File: plots/histo.png Graphic file (type png)
+ <use plots/histo.png>
+Package pdftex.def Info: plots/histo.png used on input line 177.
+(pdftex.def)             Requested size: 256.55872pt x 171.04552pt.
+
+Overfull \hbox (11.29219pt too wide) in paragraph at lines 177--178
+[][] 
+ []
+
+[4 <./plots/linear_fit.jpg> <./plots/onion.png> <./plots/onion2.png>]
+(./BMC.bbl) [5 <./plots/histo.png>] (./BMC.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4985 strings out of 493117
- 65163 string characters out of 6135433
- 150521 words of memory out of 5000000
- 8349 multiletter control sequences out of 15000+600000
- 12347 words of font info for 52 fonts, out of 8000000 for 9000
+ 5077 strings out of 493117
+ 66491 string characters out of 6135433
+ 163867 words of memory out of 5000000
+ 8430 multiletter control sequences out of 15000+600000
+ 12864 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,1157b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on BMC.pdf (3 pages, 173057 bytes).
+ 39i,14n,28p,1236b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on BMC.pdf (5 pages, 508728 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

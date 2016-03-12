@@ -1,0 +1,31 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Press}(1988)}]{num_rec}
+\bibinfo{author}{\bibfnamefont{W.~H.} \bibnamefont{Press}},
+  \emph{\bibinfo{title}{Numerical recipes in C}} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Millman and Fox}(1936)}]{PhysRev}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Millman}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Fox}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{50}},
+  \bibinfo{pages}{220} (\bibinfo{year}{1936}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.50.220}.
+
+\bibitem[{\citenamefont{Wikipedia}(2016)}]{wiki_hyperfine}
+\bibinfo{author}{\bibnamefont{Wikipedia}}, \emph{\bibinfo{title}{Hyperfine
+  structure}} (\bibinfo{year}{2016}).
+
+\end{thebibliography}
