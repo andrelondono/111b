@@ -2,6 +2,7 @@
 \citation{*}
 \citation{einstein_1905}
 \citation{newburgh}
+\citation{einstein_langevin}
 \citation{math}
 \newlabel{FirstPage}{{}{1}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}}
@@ -9,23 +10,69 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}Theory}{1}{}}
 \newlabel{sec:theory}{{2}{1}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Basics}{1}{}}
-\newlabel{theory}{{1}{1}{}{}{}}
-\newlabel{exp}{{2}{1}{}{}{}}
+\newlabel{exp}{{1}{1}{}{}{}}
+\newlabel{theory}{{2}{1}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Simulation}{1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Hypothesis}{1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Apparatus and Procedure}{1}{}}
-\newlabel{sec:ap}{{3}{1}{}{}{}}
-\bibdata{bibdatabase}
-\bibcite{einstein_1905}{{1}{1905}{{Einstein}}{{}}}
-\bibcite{math}{{2}{2016}{{Siegrist}}{{}}}
-\bibcite{newburgh}{{3}{2013}{{Newburgh et~al.}}{{Newburgh, Peidle, and Rueckner}}}
-\bibcite{kohler}{{4}{2015}{{Davidson}}{{}}}
-\bibcite{wiki_kohler}{{5}{2015}{{Wikipedia}}{{}}}
-\bibstyle{apsrev}
-\newlabel{LastPage}{{}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Analysis}{2}{}}
-\newlabel{sec:analysis}{{4}{2}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{2}{}}
-\newlabel{sec:conclusion}{{5}{2}{}{}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Experimental condition and results of all trials.}}{3}{}}
+\newlabel{sim}{{2.2}{1}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Hypothesis}{2}{}}
+\newlabel{hypo}{{2.3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Apparatus and Procedure}{2}{}}
+\newlabel{sec:ap}{{3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Particle Tracking Code}{2}{}}
+\newlabel{track}{{3.1}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The diffusion coefficient obtained from the Gaussian and direct method follows simmilar trends. This is about an order-of-magnitude off from the simulation and experimental results.}}{2}{}}
+\newlabel{analysis4}{{1}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The diffusion coefficient obtained from the simulation and the experiment follows the same trends for different trials, which makes sense in terms of the variables being changed as described in Sec.2.3{}{}{}\hbox {} . }}{2}{}}
+\newlabel{analysis4}{{2}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Microscope setup}{2}{}}
+\newlabel{kohler}{{3.2}{2}{}{}{}}
+\citation{Philipse}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Experimental condition and results of all trials. ``Simulation" indicates the diffusion coefficient computed from a Matlab simulation of N=1000 particles undergoing random walk, as described in Sec. 2.2{}{}{}\hbox {}.``Experimental" indicates the diffusion coefficient computed from the particle tracking interface. }}{3}{}}
 \newlabel{my-label}{{1}{3}{}{}{}}
+\newlabel{table}{{1}{3}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Recipe for making viscous solutions}}{3}{}}
+\newlabel{solution}{{2}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Analysis}{3}{}}
+\newlabel{sec:analysis}{{4}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Computing diffusion coefficient}{3}{}}
+\newlabel{compD}{{4.1}{3}{}{}{}}
+\newlabel{lang}{{3}{3}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Table of analysis values.``Direct", ``Linear", and ``Gauss" indicates that the diffusion coeffcient computed by the method described in Sec. 4.1{}{}{}\hbox {}. }}{3}{}}
+\newlabel{table_analysis}{{3}{3}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Direct Method}{3}{}}
+\citation{linear_fit}
+\citation{grier}
+\citation{size}
+\citation{atp}
+\@writefile{toc}{\contentsline {paragraph}{Linear Fitting}{4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The top panel shows a linear fit on the displacement data of a single particle undergoing Brownian diffusion. Shown in the bottom panels are the residuals from the linear fit. The residuals are relatively large due to noise in the data; however, since there is no systematic trend in the residual, a higher order fit is not necessary. The timeslice is cropped to a shorter region so that the linear trend could be more easily visualized.}}{4}{}}
+\newlabel{linear_fit}{{3}{4}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Gaussian method}{4}{}}
+\newlabel{displace}{{6}{4}{}{}{}}
+\newlabel{gaus}{{7}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Molecular Motors}{4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces (Left) Image of the onion cell under dark field illumination. (Right) We could see the an aggregate of detected particles flowing along the boundaries of the cell wall.}}{4}{}}
+\newlabel{onion}{{4}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Intracellular transport}{4}{}}
+\newlabel{stoke}{{8}{4}{}{}{}}
+\bibdata{bibdatabase}
+\bibcite{linear_fit}{{1}{2016}{{Mathworks}}{{}}}
+\bibcite{atp}{{2}{2016}{{Philips}}{{}}}
+\bibcite{size}{{3}{2014}{{et~al.}}{{}}}
+\bibcite{stoke}{{4}{2016}{{Physics}}{{}}}
+\bibcite{chi}{{5}{2012}{{Silva and profile}}{{}}}
+\bibcite{wiki_markov}{{6}{2016}{{Wikipedia}}{{}}}
+\bibcite{grier}{{7}{1996}{{Grier}}{{}}}
+\bibcite{einstein_langevin}{{8}{1997}{{ein}}{{}}}
+\bibcite{Philipse}{{9}{2016}{{Philipse}}{{}}}
+\bibcite{einstein_1905}{{10}{1905}{{Einstein}}{{}}}
+\bibcite{math}{{11}{2016}{{Siegrist}}{{}}}
+\bibcite{newburgh}{{12}{2013}{{Newburgh et~al.}}{{Newburgh, Peidle, and Rueckner}}}
+\bibcite{kohler}{{13}{2015}{{Davidson}}{{}}}
+\bibcite{wiki_kohler}{{14}{2015}{{Wikipedia}}{{}}}
+\bibstyle{apsrev}
+\newlabel{LastPage}{{}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Velocity distributions of onion cell and microbead solution.}}{5}{}}
+\newlabel{histo}{{5}{5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{5}{}}
+\newlabel{sec:conclusion}{{5}{5}{}{}{}}

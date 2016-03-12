@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -12,10 +12,49 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem[{\citenamefont{Mathworks}(2016)}]{linear_fit}
+\bibinfo{author}{\bibnamefont{Mathworks}}, \emph{\bibinfo{title}{Linear
+  regression - matlab and simulink}} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Philips}(2016)}]{atp}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Philips}},
+  \emph{\bibinfo{title}{How much energy is released in atp hydrolysis?}}
+  (\bibinfo{year}{2016}),
+  \urlprefix\url{http://book.bionumbers.org/how-much-energy-is-released-in-atp-hydrolysis/}.
+
+\bibitem[{\citenamefont{et~al.}(2014)}]{size}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{et~al.}},
+  \emph{\bibinfo{title}{Vesicle size influences the trafficking, processing,
+  and presentation of antigens in lipid vesicles. - pubmed - ncbi}}
+  (\bibinfo{year}{2014}),
+  \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15528351}.
+
+\bibitem[{\citenamefont{Physics}(2016)}]{stoke}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Physics}},
+  \emph{\bibinfo{title}{Stokes' law and terminal velocity}}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Silva and profile}(2012)}]{chi}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Silva}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{profile}},
+  \emph{\bibinfo{title}{Astropython blog: Computing the chi-squared and reduced
+  chi-squared of a model}} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Wikipedia}(2016)}]{wiki_markov}
+\bibinfo{author}{\bibnamefont{Wikipedia}}, \emph{\bibinfo{title}{Markov
+  property}} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Grier}(1996)}]{grier}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Grier}},
+  \emph{\bibinfo{title}{Diffusion coefficients}} (\bibinfo{year}{1996}).
+
+\bibitem[{ein(1997)}]{einstein_langevin}
+\bibinfo{journal}{American Association of Physics Teachers}
+  \textbf{\bibinfo{volume}{65}}, \bibinfo{pages}{1079} (\bibinfo{year}{1997}).
+
 \bibitem[{\citenamefont{Philipse}(2016)}]{Philipse}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Philipse}}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://userpages.umbc.edu/~dfrey1/ench630/philipse_notes_on_brownian_motion.pdf}.
+  (\bibinfo{year}{2016}).
 
 \bibitem[{\citenamefont{Einstein}(1905)}]{einstein_1905}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Einstein}},

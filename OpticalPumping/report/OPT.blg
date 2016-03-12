@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: OPT.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibdatabase.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_hyperfine
+while executing---line 2281 of file apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_hyperfine
+while executing---line 2370 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_hyperfine
+while executing---line 2370 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_hyperfine
+while executing---line 2370 of file apsrev.bst
+Name 1 in "Wikipedia," has a comma at the end for entry wiki_hyperfine
+while executing---line 2370 of file apsrev.bst
+You've used 3 entries,
+            3411 wiz_defined-function locations,
+            1170 strings with 10324 characters,
+and the built_in function-call counts, 1496 in all, are:
+= -- 88
+> -- 31
+< -- 6
++ -- 20
+- -- 8
+* -- 179
+:= -- 188
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 139
+empty$ -- 139
+format.name$ -- 23
+if$ -- 276
+int.to.chr$ -- 1
+int.to.str$ -- 4
+missing$ -- 22
+newline$ -- 24
+num.names$ -- 9
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 56
+stack$ -- 0
+substring$ -- 43
+swap$ -- 92
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 0
+while$ -- 7
+width$ -- 0
+write$ -- 43
+(There were 5 error messages)
