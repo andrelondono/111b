@@ -1,0 +1,85 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{wiki_hyperfine}
+ 2016.
+\newblock \showarticletitle{Hyperfine Structure}.
+\newblock {\em Wikipedia\/} (2016).
+\newblock
+
+
+\bibitem{opt2}
+ 2016.
+\newblock \showarticletitle{Optical Pumping}.
+\newblock {\em Wikipedia\/} (2016).
+\newblock
+
+
+\bibitem{opt}
+{Thomas~R. Carver}. 1963.
+\newblock \showarticletitle{Optical Pumping}.
+\newblock {\em Science\/} (1963).
+\newblock
+
+
+\bibitem{PhysRev}
+{S. Millman} {and} {M. Fox}. 1936.
+\newblock \showarticletitle{Nuclear Spins and Magnetic Moments of
+  ${\mathrm{Rb}}^{85}$ and ${\mathrm{Rb}}^{87}$}.
+\newblock {\em Phys. Rev.\/}  {50} (Aug 1936), 220--225.
+\newblock
+Issue 3.
+\showDOI{%
+\url{http://dx.doi.org/10.1103/PhysRev.50.220}}
+
+
+\bibitem{Paschotta}
+{Paschotta}. 2016.
+\newblock Encyclopedia of Laser Physics and Technology - optical pumping, pump
+  light, laser crystal, optically pumped lasers, pump absorption, in-band
+  pumping.
+\newblock   (2016).
+\newblock
+\showURL{%
+\url{https://www.rp-photonics.com/optical_pumping.html}}
+
+
+\bibitem{num_rec}
+{William~H Press}. 1988.
+\newblock {\em Numerical recipes in C}.
+\newblock Cambridge University Press.
+\newblock
+
+
+\end{thebibliography}

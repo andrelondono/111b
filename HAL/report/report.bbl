@@ -1,0 +1,75 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{maxwell}
+ 2016.
+\newblock Boltzman Distribution.
+\newblock   (2016).
+\newblock
+
+
+\bibitem{2_magnetometer_2016}
+ 2016.
+\newblock Magnetometer.
+\newblock   (2016).
+\newblock
+\showURL{%
+\url{https://en.wikipedia.org/wiki/Magnetometer\#Hall_effect_magnetometer}}
+
+
+\bibitem{plasma_param}
+ 2016.
+\newblock Plasma Parameter.
+\newblock   (2016).
+\newblock
+\showURL{%
+\url{https://en.wikipedia.org/wiki/Plasma_parameters}}
+
+
+\bibitem{5_franklin_1976}
+{Raoul Franklin}. 1976.
+\newblock {\em Plasma Phenomena in Gas Discharges}.
+\newblock
+
+
+\bibitem{3_sethna_1994}
+{Jim Sethna}. 1994.
+\newblock What's Hysteresis?
+\newblock   (1994).
+\newblock
+\showURL{%
+\url{http://www.lassp.cornell.edu/sethna/hysteresis/WhatIsHysteresis.html}}
+
+
+\end{thebibliography}

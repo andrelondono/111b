@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAR 2016 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 MAR 2016 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,13 +895,17 @@ LaTeX Info: Redefining \addtolength on input line 76.
 )
 \c@@todonotes@numberoftodonotes=\count147
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 60.
+
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 60.
 
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 60.
 Package hyperref Info: Option `colorlinks' set `true' on input line 60.
 Package hyperref Info: Option `breaklinks' set `true' on input line 60.
 Package hyperref Info: Option `hypertexnames' set `false' on input line 60.
- (./report.aux
+(./report.aux
 
 LaTeX Warning: Label `linear_fit' multiply defined.
 
@@ -1018,7 +1022,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 72
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -1028,160 +1032,188 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 72
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 72
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 72
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 73.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 73.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 72.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `wiki_hyperfine' on page \thepage  undefined on input l
-ine 84.
-
-<plots/splitting_diagram.jpeg, id=28, 72.9124pt x 84.315pt>
+<plots/splitting_diagram.jpeg, id=34, 72.9124pt x 84.315pt>
 File: plots/splitting_diagram.jpeg Graphic file (type jpg)
 
 <use plots/splitting_diagram.jpeg>
-Package pdftex.def Info: plots/splitting_diagram.jpeg used on input line 86.
+Package pdftex.def Info: plots/splitting_diagram.jpeg used on input line 95.
 (pdftex.def)             Requested size: 230.46574pt x 266.5289pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 87.
-
-
-LaTeX Warning: Citation `PhysRev' on page \thepage  undefined on input line 107
-.
-
-<plots/all_data.png, id=32, 406.51875pt x 276.03125pt>
-File: plots/all_data.png Graphic file (type png)
-
-<use plots/all_data.png>
-Package pdftex.def Info: plots/all_data.png used on input line 112.
-(pdftex.def)             Requested size: 230.46574pt x 156.48863pt.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 96.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<plots/setup.png, id=37, 897.3525pt x 820.06375pt>
+File: plots/setup.png Graphic file (type png)
+ <use plots/setup.png>
+Package pdftex.def Info: plots/setup.png used on input line 103.
+(pdftex.def)             Requested size: 230.46574pt x 210.60881pt.
 
-LaTeX Warning: Citation `num_rec' on page \thepage  undefined on input line 116
-.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 123.
-
-<plots/rb85.png, id=35, 410.53375pt x 288.07625pt>
-File: plots/rb85.png Graphic file (type png)
- <use plots/rb85.png>
-Package pdftex.def Info: plots/rb85.png used on input line 135.
-(pdftex.def)             Requested size: 230.46574pt x 161.7172pt.
-
-<plots/rb87.png, id=36, 410.53375pt x 288.07625pt>
-File: plots/rb87.png Graphic file (type png)
- <use plots/rb87.png>
-Package pdftex.def Info: plots/rb87.png used on input line 136.
-(pdftex.def)             Requested size: 230.46574pt x 161.7172pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[][]
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 
- <./plots/splitting_diagram.jpeg>]
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+ <plots/curve_pic.png, id=69, 277.9986pt x 224.037pt>
+File: plots/curve_pic.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use plots/curve_pic.png>
+Package pdftex.def Info: plots/curve_pic.png used on input line 116.
+(pdftex.def)             Requested size: 230.46574pt x 185.7387pt.
+ [2 <./plots/splitting_diagram.jpeg> <./plots/setup.png> <./plots/curve_pic.png
+>]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 133.
 
-No file report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-[2 <./plots/all_data.png> <./plots/rb85.png> <./plots/rb87.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `txtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+<plots/all_data.png, id=89, 406.51875pt x 276.03125pt>
+File: plots/all_data.png Graphic file (type png)
+
+<use plots/all_data.png>
+Package pdftex.def Info: plots/all_data.png used on input line 135.
+(pdftex.def)             Requested size: 230.46574pt x 156.48863pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 146.
+
+<plots/rb85.png, id=92, 410.53375pt x 288.07625pt>
+File: plots/rb85.png Graphic file (type png)
+ <use plots/rb85.png>
+Package pdftex.def Info: plots/rb85.png used on input line 158.
+(pdftex.def)             Requested size: 230.46574pt x 161.7172pt.
+
+<plots/rb87.png, id=93, 410.53375pt x 288.07625pt>
+File: plots/rb87.png Graphic file (type png)
+ <use plots/rb87.png>
+Package pdftex.def Info: plots/rb87.png used on input line 159.
+(pdftex.def)             Requested size: 230.46574pt x 161.7172pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+[][]
+ []
+
+[3 <./plots/all_data.png> <./plots/rb85.png> <./plots/rb87.png>] (./report.bbl
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+[4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 37AC5FF9815F0B45AFE7754EC1B0FC4E;236.
+(rerunfilecheck)             Checksum: DFF0F102A81BB8CDB940BCA5424E6611;283.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 19275 strings out of 493117
- 352465 string characters out of 6135433
- 439781 words of memory out of 5000000
- 22209 multiletter control sequences out of 15000+600000
- 67889 words of font info for 146 fonts, out of 8000000 for 9000
+ 19534 strings out of 493117
+ 356129 string characters out of 6135433
+ 441535 words of memory out of 5000000
+ 22373 multiletter control sequences out of 15000+600000
+ 92939 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,833b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,1446b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8
-a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 186820 bytes).
+e/2014/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/s
+ymbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (4 pages, 1634470 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 13385 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 32347 words of extra memory for PDF output out of 35830 (max. 10000000)
 
